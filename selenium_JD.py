@@ -224,7 +224,7 @@ def save_to_mysql(item):
 
 
 def main():
-    for page in range(2):
+    for page in range(100):
         print('第%s页' % (page + 1))
         # selenium 爬取商品列页面
         html = get_page(page + 1)

@@ -1,0 +1,7 @@
+jisumanhua_pin_img.py
+爬取极速漫画400张验证图片, 并将图片剪切为4张小图, 存入small_img中
+
+compare_helper.py
+对比两张图片的像素, 分数大于85为相同图片
+compare_img.py
+遍历所有图片, 并将图片传入compare_helper.py中验证, 分数大约85, 删除该图片
